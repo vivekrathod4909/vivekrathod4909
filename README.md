@@ -1,7 +1,5 @@
 <!-- Header -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:95BF47,50:5E8E3E,100:1A1A1A&height=220&section=header&text=Vivek%20Rathod&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Shopify%20Lead%20%26%20Architect&descAlignY=58&descSize=20" alt="Vivek Rathod" />
-</p>
+<a href="https://rathodvivek.in"><img src="./assets/header.svg" width="100%" alt="Vivek Rathod — Senior Shopify Developer" /></a>
 
 <p align="center">
   <a href="https://rathodvivek.in">
@@ -26,23 +24,32 @@
 
 ## 👋 About me
 
-
 I'm **Vivek Rathod**, a **Senior Shopify Developer** and **Shopify Department Lead** based in **Surat, Gujarat, India**.
 I build custom Shopify themes and apps for brands worldwide, and handle **scope → build → launch → ongoing store management** myself.
 
-- 🛍️ Custom Shopify **stores** and **apps** (public & private)
-- ⚡ Speed, Core Web Vitals & conversion optimisation
-- 🔁 Migrations from WooCommerce, WordPress & custom platforms
-- 🔌 Integrations with ERP, payments, shipping & WhatsApp
-- 🧭 Developer **and** manager — I understand business goals, not only code
+- 🔭 Currently leading the **Shopify department at LKR Code Orbit** and building stores at **ITCODE Infotech**
+- 🧭 Developer **and** manager: I've been a developer, a product manager and a department lead, so I understand business goals, not only code
+- 🌍 Working remotely with clients worldwide over call, WhatsApp and email
 - 💬 Ask me about **Liquid, Shopify Functions, Checkout Extensibility, Metaobjects**
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/33-Stores%20%26%20Projects-95BF47?style=for-the-badge" />
   <img src="https://img.shields.io/badge/8-Industries-5E8E3E?style=for-the-badge" />
   <img src="https://img.shields.io/badge/32-Client%20Brands-1A1A1A?style=for-the-badge" />
 </p>
+
+---
+
+## 🧰 What I can build for you
+
+| | Service | |
+|:-:|---|---|
+| 🛍️ | **Custom Shopify store development** | Theme built from scratch around your brand |
+| 🧩 | **Custom Shopify app development** | Public & private apps for features Shopify lacks |
+| 🔁 | **Store migration & redesign** | WooCommerce / WordPress / custom → Shopify |
+| ⚡ | **Speed & CRO** | Core Web Vitals and conversion optimisation |
+| 🔌 | **Integrations** | ERP, payments, shipping, WhatsApp |
+| 🛟 | **Store management & retainers** | Day-to-day updates and support after launch |
 
 ---
 
@@ -95,16 +102,23 @@ I build custom Shopify themes and apps for brands worldwide, and handle **scope 
 
 ## 🏪 Featured stores
 
-<p align="center">
-  <a href="https://excellentjewels.com/"><img src="https://img.shields.io/badge/💎%20Excellent%20Jewels-Jewellery-95BF47?style=flat-square" /></a>
-  <a href="https://mymukhwas.com/"><img src="https://img.shields.io/badge/🌿%20My%20Mukhwas-Food-95BF47?style=flat-square" /></a>
-  <a href="https://mukhras.com/"><img src="https://img.shields.io/badge/🍃%20Mukhras-Food-95BF47?style=flat-square" /></a>
-  <a href="https://www.ayuverseorganics.com/"><img src="https://img.shields.io/badge/🌸%20Ayuverse%20Organics-Beauty-95BF47?style=flat-square" /></a>
-  <a href="https://auventro.com/"><img src="https://img.shields.io/badge/⌚%20Auventro-Watches-95BF47?style=flat-square" /></a>
-  <a href="https://rra6.com/"><img src="https://img.shields.io/badge/💪%20RRA6-Supplements-95BF47?style=flat-square" /></a>
-</p>
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="https://excellentjewels.com/"><b>💎 Excellent Jewels</b></a><br /><sub>Lab-grown diamond jewellery</sub></td>
+    <td align="center" width="33%"><a href="https://mymukhwas.com/"><b>🌿 My Mukhwas</b></a><br /><sub>Mukhwas & mouth fresheners</sub></td>
+    <td align="center" width="33%"><a href="https://mukhras.com/"><b>🍃 Mukhras</b></a><br /><sub>Mukhwas</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.ayuverseorganics.com/"><b>🌸 Ayuverse Organics</b></a><br /><sub>Natural hair care</sub></td>
+    <td align="center"><a href="https://auventro.com/"><b>⌚ Auventro</b></a><br /><sub>Watches</sub></td>
+    <td align="center"><a href="https://rra6.com/"><b>💪 RRA6</b></a><br /><sub>Health supplements</sub></td>
+  </tr>
+</table>
 
-<p align="center"><a href="https://rathodvivek.in"><b>➡️ See all 33 stores on rathodvivek.in</b></a></p>
+<p align="center">
+  <sub>Jewellery & diamonds · Fashion · Food · Beauty · Watches · Health & wellness · Home & kitchen</sub><br />
+  <a href="https://rathodvivek.in"><b>➡️ See all 33 stores on rathodvivek.in</b></a>
+</p>
 
 ---
 
@@ -118,15 +132,17 @@ flowchart LR
 
 ---
 
-## 📊 GitHub stats
+## 📊 GitHub activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=vivekrathod4909&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="170" src="https://streak-stats.demolab.com?user=vivekrathod4909&theme=tokyonight&hide_border=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vivekrathod4909/vivekrathod4909/output/profile-night-green.svg" />
+    <img width="100%" alt="3D contribution graph and stats" src="https://raw.githubusercontent.com/vivekrathod4909/vivekrathod4909/output/profile-green-animate.svg" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vivekrathod4909&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" />
+  <img height="165" src="https://streak-stats.demolab.com?user=vivekrathod4909&theme=tokyonight&hide_border=true&ring=95BF47&fire=95BF47&currStreakLabel=95BF47" alt="GitHub streak" />
 </p>
 
 <p align="center">
@@ -144,4 +160,4 @@ flowchart LR
   </a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A1A1A,50:5E8E3E,100:95BF47&height=120&section=footer" width="100%" />
+<img src="./assets/footer.svg" width="100%" alt="" />

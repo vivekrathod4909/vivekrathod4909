@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#1a2a12"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" x2="1">
+      <stop offset="0" stop-color="#95BF47"/>
+      <stop offset="0.5" stop-color="#5E8E3E"/>
+      <stop offset="1" stop-color="#95BF47"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#c8f07a"/>
+      <stop offset="0.55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <style>
+      .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+      .name{font-size:64px;font-weight:800;opacity:0;animation:up 1s ease-out .2s forwards}
+      .role{font-size:24px;font-weight:600;fill:#95BF47;opacity:0;animation:up 1s ease-out .7s forwards}
+      .tag{font-size:16px;fill:#c9d1d9;opacity:0;animation:up 1s ease-out 1.2s forwards}
+      .dot{animation:pulse 2s ease-in-out infinite}
+      .bag{animation:float 3s ease-in-out infinite;transform-origin:1040px 105px}
+      @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+      @keyframes float{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-10px) rotate(4deg)}}
+    </style>
+  </defs>
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <!-- waves -->
+  <path fill="url(#wave)" opacity=".35">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+      M0 215 Q150 185 300 215 T600 215 T900 215 T1200 215 V260 H0Z;
+      M0 215 Q150 245 300 215 T600 215 T900 215 T1200 215 V260 H0Z;
+      M0 215 Q150 185 300 215 T600 215 T900 215 T1200 215 V260 H0Z"/>
+  </path>
+  <path fill="url(#wave)" opacity=".7">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite" values="
+      M0 235 Q200 255 400 235 T800 235 T1200 235 V260 H0Z;
+      M0 235 Q200 215 400 235 T800 235 T1200 235 V260 H0Z;
+      M0 235 Q200 255 400 235 T800 235 T1200 235 V260 H0Z"/>
+  </path>
+  <!-- text -->
+  <text class="t name" x="70" y="105" fill="url(#shine)">Vivek Rathod</text>
+  <text class="t role" x="72" y="145">Senior Shopify Developer · Shopify Department Lead</text>
+  <circle class="dot" cx="80" cy="176" r="6" fill="#3fb950"/>
+  <text class="t tag" x="94" y="182">Available for projects  ·  Surat, India  ·  Clients worldwide</text>
+  <!-- shopping bag -->
+  <g class="bag">
+    <path d="M995 80 h90 l-8 85 h-74z" fill="#95BF47"/>
+    <path d="M1018 80 v-10 a22 22 0 0 1 44 0 v10" fill="none" stroke="#95BF47" stroke-width="7"/>
+    <text x="1040" y="138" text-anchor="middle" class="t" font-size="34" font-weight="800" fill="#0d1117">&lt;/&gt;</text>
+  </g>
+</svg>
