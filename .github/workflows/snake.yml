@@ -30,12 +30,15 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
 
       - name: Collect cards
-        run: cp profile-3d-contrib/*.svg dist/
+        run: |
+          mkdir -p out
+          sudo cp dist/*.svg profile-3d-contrib/*.svg out/
+          sudo chown -R $USER out
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: out
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
